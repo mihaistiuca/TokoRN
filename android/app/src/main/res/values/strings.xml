@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Jitsi Meet</string>
+    <string name="app_name">Toko</string>
+    <string name="filter_view_example_toko">Toko</string>
+	<string name="filter_view_http_toko">Toko</string>	
+	<string name="filter_view_https_toko">Toko</string>
+	<string name="title_toko">Toko</string>
 </resources>

@@ -50,7 +50,6 @@ function _shareRoom(roomURL: string, { dispatch, getState }) {
             const onFulfilled
                 = (shared: boolean) => dispatch(endShareRoom(actualTokoUrl, shared));
                 
-            alert(title);
 
             Share.share(
                 /* content */ {

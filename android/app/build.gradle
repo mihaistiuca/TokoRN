@@ -5,7 +5,10 @@ apply plugin: 'com.android.application'
 if (googleServicesEnabled) {
     apply plugin: 'io.fabric'
 }
-
+project.ext.react = [
+    entryFile: "index.js",
+    nodeExecutableAndArgs: ["node", "--max_old_space_size=8192"]
+]
 // Use the number of seconds/10 since Jan 1 2019 as the versionCode.
 // This lets us upload a new build at most every 10 seconds for the
 // next ~680 years.
@@ -17,7 +20,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId 'org.jitsi.meet'
+        applicationId 'com.tokochat'
         versionCode vcode
         versionName project.appVersion
 
