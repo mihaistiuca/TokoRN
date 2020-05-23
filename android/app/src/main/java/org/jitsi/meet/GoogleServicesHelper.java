@@ -19,25 +19,25 @@ import org.jitsi.meet.sdk.JitsiMeetActivity;
  */
 final class GoogleServicesHelper {
     public static void initialize(JitsiMeetActivity activity) {
-        if (BuildConfig.GOOGLE_SERVICES_ENABLED) {
-            Log.d(activity.getClass().getSimpleName(), "Initializing Google Services");
+        // if (BuildConfig.GOOGLE_SERVICES_ENABLED) {
+        //     Log.d(activity.getClass().getSimpleName(), "Initializing Google Services");
 
-            if (!JitsiMeet.isCrashReportingDisabled(activity)) {
-                Fabric.with(activity, new Crashlytics());
-            }
+        //     if (!JitsiMeet.isCrashReportingDisabled(activity)) {
+        //         Fabric.with(activity, new Crashlytics());
+        //     }
 
-            FirebaseDynamicLinks.getInstance().getDynamicLink(activity.getIntent())
-                .addOnSuccessListener(activity, pendingDynamicLinkData -> {
-                    Uri dynamicLink = null;
+        //     FirebaseDynamicLinks.getInstance().getDynamicLink(activity.getIntent())
+        //         .addOnSuccessListener(activity, pendingDynamicLinkData -> {
+        //             Uri dynamicLink = null;
 
-                    if (pendingDynamicLinkData != null) {
-                        dynamicLink = pendingDynamicLinkData.getLink();
-                    }
+        //             if (pendingDynamicLinkData != null) {
+        //                 dynamicLink = pendingDynamicLinkData.getLink();
+        //             }
 
-                    if (dynamicLink != null) {
-                        activity.join(dynamicLink.toString());
-                    }
-                });
-        }
+        //             if (dynamicLink != null) {
+        //                 activity.join(dynamicLink.toString());
+        //             }
+        //         });
+        // }
     }
 }
