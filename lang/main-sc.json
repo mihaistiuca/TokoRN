@@ -227,7 +227,7 @@
         "popupError": "Su navigadore tuo est blochende is ventanas emergentes de custu situ. Ativa is ventanas emergentes dae sa cunfiguratzione de seguresa de su navigadore e torra·bi a proare.",
         "popupErrorTitle": "Finestres emergents blocades",
         "recording": "Registrende",
-        "recordingDisabledForGuestTooltip": "Is persones invitadas non podent registrare.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "S'aviu de registratziones est istadu disativadu.",
         "rejoinNow": "Torra a intrare",
         "remoteControlAllowedMessage": "{{user}} at atzetadu sa rechesta tua de controllu remotu.",

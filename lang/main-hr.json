@@ -211,7 +211,7 @@
         "popupError": "Vaš preglednik blokira skočne prozore s ove web-lokacije. Omogućite skočne prozore u sigurnosnim postavkama preglednika i pokušajte ponovno.",
         "popupErrorTitle": "Skočni prozor je blokiran",
         "recording": "Snimanje",
-        "recordingDisabledForGuestTooltip": "Gosti ne mogu pokrenuti snimanje.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Isključeno je pokretanje snimanja.",
         "rejoinNow": "Pridružite se sada",
         "remoteControlAllowedMessage": "{{user}} je prihvatio vaš zahtjev daljinskog upravljanja!",

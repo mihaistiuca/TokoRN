@@ -216,7 +216,7 @@
         "popupError": "Tarayıcınız bu siteden açılan pencereleri engelliyor. Lütfen tarayıcınızın güvenlik ayarlarından açılır pencereleri etkinleştirin ve tekrar deneyin.",
         "popupErrorTitle": "Açılır pencere engellendi",
         "recording": "Kaydediliyor",
-        "recordingDisabledForGuestTooltip": "Misafirler kayıt etmeye başlayamaz.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Kaydetmeye başlama devre dışı.",
         "rejoinNow": "Tekrar katıl",
         "remoteControlAllowedMessage": "{{user}} uzaktan kontrol isteğinizi kabul etti!",

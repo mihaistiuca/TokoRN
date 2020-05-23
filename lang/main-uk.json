@@ -232,7 +232,7 @@
         "popupError": "Ваш браузер блокує виринаючі вікна на цьому сайті. Будь ласка, дозвольте виринаючі вікна у налаштуваннях безпеки вашого браузера та спробуйте ще раз.",
         "popupErrorTitle": "Заблоковано виринаюче вікно",
         "recording": "Запис",
-        "recordingDisabledForGuestTooltip": "Гості не можуть здійснювати запис.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Запис вимкнено.",
         "rejoinNow": "Приєднатися знову",
         "remoteControlAllowedMessage": "{{user}} прийняв ваш запит на віддалене керування!",

@@ -201,7 +201,7 @@
         "popupError": "あなたのブラウザはこのサイトからのポップアップウィンドウをブロックしています。 ブラウザのセキュリティ設定でポップアップを有効にしてから、もう一度お試しください。",
         "popupErrorTitle": "ポップアップがブロックされました",
         "recording": "録画",
-        "recordingDisabledForGuestTooltip": "ゲストが録画開始できません。",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "",
         "rejoinNow": "今すぐ再参加",
         "remoteControlAllowedMessage": "{{user}} はあなたのリモートコントロール要求を受け入れました！",

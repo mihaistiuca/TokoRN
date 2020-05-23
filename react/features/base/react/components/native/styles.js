@@ -34,7 +34,8 @@ const PAGED_LIST_STYLES = {
      * Additional style for the active indicator icon (Android).
      */
     pageIndicatorActive: {
-        color: ColorPalette.white
+        color: ColorPalette.white,
+        // fontWeight: '500'
     },
 
     /**

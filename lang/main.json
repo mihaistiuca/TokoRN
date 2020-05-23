@@ -231,7 +231,7 @@
         "popupError": "Your browser is blocking pop-up windows from this site. Please enable pop-ups in your browser's security settings and try again.",
         "popupErrorTitle": "Pop-up blocked",
         "recording": "Recording",
-        "recordingDisabledForGuestTooltip": "Guests can't start recordings.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Start recording disabled.",
         "rejoinNow": "Rejoin now",
         "remoteControlAllowedMessage": "{{user}} accepted your remote control request!",

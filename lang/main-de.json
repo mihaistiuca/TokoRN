@@ -227,7 +227,7 @@
         "popupError": "Ihr Browser blockiert Pop-ups von dieser Website. Bitte aktivieren Sie Pop-ups in den Sicherheitseinstellungen des Browsers und versuchen Sie es erneut.",
         "popupErrorTitle": "Pop-up blockiert",
         "recording": "Aufnahme",
-        "recordingDisabledForGuestTooltip": "Gäste können keine Aufzeichnungen starten.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Start der Aufzeichnung deaktiviert.",
         "rejoinNow": "Jetzt erneut beitreten",
         "remoteControlAllowedMessage": "{{user}} hat die Anfrage zur Fernsteuerung angenommen!",

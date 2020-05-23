@@ -205,7 +205,7 @@
         "popupError": "Il tuo browser sta bloccando i pop-up da questo sito. Per favore abilità i pop-up dalle impostazioni di sicurezza del browser e riprova.",
         "popupErrorTitle": "Pop-up bloccato",
         "recording": "Registrazione",
-        "recordingDisabledForGuestTooltip": "Gli ospiti non possono avviare una registrazione.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Registrazione disabilitata.",
         "rejoinNow": "Ricollegati ora",
         "remoteControlAllowedMessage": "{{user}} ha accettato la tua richiesta di controllo remoto!",

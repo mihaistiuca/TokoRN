@@ -231,7 +231,7 @@
         "popupError": "Zure nabigatzaileak gune honetako pop-up leihoak blokeatzen ditu. Aktibatu pop-upak arakatzailearen segurtasun-ezarpenetan eta saiatu berriro.",
         "popupErrorTitle": "Laster-leihoa blokeatuta",
         "recording": "Grabatzen",
-        "recordingDisabledForGuestTooltip": "Gonbidatuek ezin dute grabaketarik hasi.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Hasi grabatzen desgaituta.",
         "rejoinNow": "Berriro batu",
         "remoteControlAllowedMessage": "{{user}} erabiltzaileak zure urruneko-kontrol eskaera onartu egin du!",

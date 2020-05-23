@@ -206,7 +206,7 @@
         "popupError": "U blaaier blokkeer opspringers vanaf hierdie werf. Aktiveer opspringers in die blaaier se sekuriteitopsies en probeer weer.",
         "popupErrorTitle": "Opspringer geblok",
         "recording": "Neem tans op",
-        "recordingDisabledForGuestTooltip": "Gaste kan nie opnames begin nie.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Begin van opname gedeaktiveer.",
         "rejoinNow": "Sluit nou weer aan",
         "remoteControlAllowedMessage": "",

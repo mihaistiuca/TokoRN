@@ -228,7 +228,7 @@
         "popupError": "Váš prehliadať blokuje vyskakovacie okná tejto stránky. Prosím aktivujte vyskakovacie okná v bezpečnostných nastaveniach vašeho prehliadača a skúste znovu.",
         "popupErrorTitle": "Vyskakovacie okná sú zablokované",
         "recording": "Nahrávanie",
-        "recordingDisabledForGuestTooltip": "Hostia nemôžu začať nahrávanie.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Štartovanie nahrávania je vypnuté.",
         "rejoinNow": "Teraz sa znovu pridať.",
         "remoteControlAllowedMessage": "{{user}} prijal požiadavku o vzdialené ovládanie.",

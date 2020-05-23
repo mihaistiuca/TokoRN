@@ -211,7 +211,7 @@
         "popupError": "Er wordt een pop-upvenster van deze site geblokkeerd door uw browser. Ga naar de beveiligingsinstellingen van uw browser, schakel pop-upvensters in en probeer het opnieuw.",
         "popupErrorTitle": "Pop-up wordt geblokkeerd",
         "recording": "Opnemen",
-        "recordingDisabledForGuestTooltip": "Gasten kunnen geen opnamen starten.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Het starten van opnamen is uitgeschakeld.",
         "rejoinNow": "Nu opnieuw deelnemen",
         "remoteControlAllowedMessage": "{{user}} heeft uw aanvraag voor extern beheer geaccepteerd.",

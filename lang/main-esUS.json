@@ -227,7 +227,7 @@
         "popupError": "Su navegador está bloqueando las ventanas emergentes de este sitio. Habilite las ventanas emergentes en la configuración de seguridad de su navegador y vuelva a intentarlo.",
         "popupErrorTitle": "Ventana emergente bloqueada",
         "recording": "Grabación",
-        "recordingDisabledForGuestTooltip": "Los invitados no pueden iniciar grabaciones.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Inicio de grabación desactivado.",
         "rejoinNow": "Reunirse ahora",
         "remoteControlAllowedMessage": "¡{{user}} ha aceptado tu solicitud de control remoto!",

@@ -217,7 +217,7 @@
         "popupError": "您的瀏覽器在此網站上阻擋彈出視窗。請在瀏覽器的安全設定中啟用並再試一次。",
         "popupErrorTitle": "彈出視窗遭到阻擋",
         "recording": "錄影中",
-        "recordingDisabledForGuestTooltip": "訪客無法啟動錄影。",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "啟動錄影已停用。",
         "rejoinNow": "立即重新加入",
         "remoteControlAllowedMessage": "{{user}} 接受您進行遠端控制的請求！",

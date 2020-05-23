@@ -232,7 +232,7 @@
         "popupError": "Ваш браўзер блакуе ўсплывальныя вокны гэтага сайта. Калі ласка, дазвольце ўсплывальныя вокны ў перавагах бясьпекі браўзэра і паспрабуйце зноў.",
         "popupErrorTitle": "Заблакавана ўсплывальнае акно",
         "recording": "Запіс",
-        "recordingDisabledForGuestTooltip": "Госці не могуць запісваць.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Немагчыма пачаць запіс.",
         "rejoinNow": "Падключыцца зноў",
         "remoteControlAllowedMessage": "{{user}} прыняў ваш запыт на выдаленае кіраванне!",

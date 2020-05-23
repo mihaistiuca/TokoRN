@@ -217,7 +217,7 @@
         "popupError": "Vòstre navigator bloca las fenèstras que sorgisson a partir d'aqueste site. Mercés d'activar aquelas fenèstras dins los paramètres de vòstre navigator e de tornar ensajar.",
         "popupErrorTitle": "Fenèstra que sorgís blocada",
         "recording": "Enregistrament",
-        "recordingDisabledForGuestTooltip": "Los convits pòdon pas lançar d’enregistraments.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "L’enregistrament es desactivat.",
         "rejoinNow": "Participar ara",
         "remoteControlAllowedMessage": "{{user}} a acceptat vòstra demanda de contraròtle alonhat !",

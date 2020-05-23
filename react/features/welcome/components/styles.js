@@ -11,8 +11,9 @@ export const SIDEBAR_AVATAR_SIZE = 100;
 const SIDEBAR_HEADER_HEIGHT = 150;
 
 export const SWITCH_THUMB_COLOR = ColorPalette.blueHighlight;
+// export const SWITCH_THUMB_COLOR = 'rgba(3, 191, 0, 0.2)';
 
-export const SWITCH_UNDER_COLOR = 'rgba(0, 0, 0, 0.4)';
+export const SWITCH_UNDER_COLOR = 'rgba(255, 255, 255, 0.2)';
 
 /**
  * The default color of text on the WelcomePage.

@@ -227,7 +227,7 @@
         "popupError": "הדפדפן שלך חוסם חלונות קופצים מאתר זה. אנא אפשר חלונות קופצים בהגדרות האבטחה של הדפדפן ונסה שוב.",
         "popupErrorTitle": "חלון קופץ נחסם",
         "recording": "מקליט",
-        "recordingDisabledForGuestTooltip": "אורחים אינם רשאים להקליט.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "הקלטה מושבתת.",
         "rejoinNow": "הצטרף כעת",
         "remoteControlAllowedMessage": "{{user}} קיבל את בקשת השליטה מרחוק שלך!",

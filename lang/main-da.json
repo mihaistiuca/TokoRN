@@ -228,7 +228,7 @@
         "popupError": "Din browser blockerer for pop-upper fra denne hjemmeside. Slå venligst pop-upper til i din browsers indstillinger og forsøg igen.",
         "popupErrorTitle": "Pop-up blokkeret",
         "recording": "Optager",
-        "recordingDisabledForGuestTooltip": "Gæster kan ikke starte en optagelse.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Start optagelse er slået fra.",
         "rejoinNow": "Deltag igen",
         "remoteControlAllowedMessage": "{{user}} accepterede din fjernstyring anmodning!",

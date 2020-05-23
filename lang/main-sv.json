@@ -217,7 +217,7 @@
         "popupError": "Din webbläsare blockerar pop-up-fönster från sajten. Tillåt pop-up-fönster från den här sajten i inställningarna och försök igen.",
         "popupErrorTitle": "Pop-up blockerad",
         "recording": "Inspelning",
-        "recordingDisabledForGuestTooltip": "Gäster kan inte starta inspelningar.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Starta inspelning har inaktiverats.",
         "rejoinNow": "Återanslut nu",
         "remoteControlAllowedMessage": "{{user}} godkände din begäran om fjärrstyrning.",

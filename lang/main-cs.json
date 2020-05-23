@@ -232,7 +232,7 @@
         "popupError": "Váš prohlížeč blokuje vyskakovací okna. V nastavení zabezpečení prosím povolte vyskakování oken a zkuste to znovu.",
         "popupErrorTitle": "Vyskakovací okno je zablokované",
         "recording": "Záznam",
-        "recordingDisabledForGuestTooltip": "Hosté nemohou spustit záznam.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Zahájení záznamu vypnuto.",
         "rejoinNow": "Znovu se připojit",
         "remoteControlAllowedMessage": "{{user}} přijal(a) vaši žádost o dálkové ovládání!",

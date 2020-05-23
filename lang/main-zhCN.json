@@ -212,7 +212,7 @@
         "popupError": "您的浏览器在此网站上阻止了弹出式窗口。请在浏览器的安全设置中打开它并再试一次。",
         "popupErrorTitle": "弹出窗口被拦截",
         "recording": "录制中",
-        "recordingDisabledForGuestTooltip": "访客无法开启录制。",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "开始录制被禁用。",
         "rejoinNow": "马上重新加入",
         "remoteControlAllowedMessage": "{{user}} 接受了您的远程控制请求",

@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Switch, TouchableWithoutFeedback, View } from 'react-native';
+import { Switch, TouchableWithoutFeedback, View, Alert } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../base/color-scheme';
 import { translate } from '../../base/i18n';
@@ -65,28 +65,31 @@ class VideoSwitch extends Component<Props> {
 
         return (
             <View style = { styles.audioVideoSwitchContainer }>
-                <TouchableWithoutFeedback
-                    onPress = { this._onStartAudioOnlyFalse }>
+                <TouchableWithoutFeedback>
                     <View style = { styles.switchLabel }>
                         <Text style = { _headerStyles.headerText }>
-                            { t('welcomepage.audioVideoSwitch.video') }
+                            {/* { t('welcomepage.audioVideoSwitch.video') } */}
+                            {/* { "Video OFF" } */}
+                            { _settings.startWithVideoMuted && "Video OFF" }
+                            { !_settings.startWithVideoMuted && "Video ON" }
                         </Text>
                     </View>
                 </TouchableWithoutFeedback>
                 <Switch
                     onValueChange = { this._onStartAudioOnlyChange }
                     style = { styles.audioVideoSwitch }
-                    thumbColor = { SWITCH_THUMB_COLOR }
-                    trackColor = {{ true: SWITCH_UNDER_COLOR }}
-                    value = { _settings.startAudioOnly } />
-                <TouchableWithoutFeedback
+                    // thumbColor = { SWITCH_THUMB_COLOR }
+                    thumbColor = { !_settings.startWithVideoMuted ? '#ffffff' : SWITCH_THUMB_COLOR }
+                    trackColor = {{ true: '#242424' }}
+                    value = { _settings.startWithVideoMuted } />
+                {/* <TouchableWithoutFeedback
                     onPress = { this._onStartAudioOnlyTrue }>
                     <View style = { styles.switchLabel }>
                         <Text style = { _headerStyles.headerText }>
                             { t('welcomepage.audioVideoSwitch.audio') }
                         </Text>
                     </View>
-                </TouchableWithoutFeedback>
+                </TouchableWithoutFeedback> */}
             </View>
         );
     }
@@ -97,15 +100,38 @@ class VideoSwitch extends Component<Props> {
      * Handles the audio-video switch changes.
      *
      * @private
-     * @param {boolean} startAudioOnly - The new startAudioOnly value.
+     * @param {boolean} startWithVideoMuted - The new startAudioOnly value.
      * @returns {void}
      */
-    _onStartAudioOnlyChange(startAudioOnly) {
+    _onStartAudioOnlyChange(startWithVideoMuted) {
         const { dispatch } = this.props;
 
+        // dispatch(updateSettings({
+        //     startAudioOnly
+        // }));
         dispatch(updateSettings({
-            startAudioOnly
+            startWithVideoMuted: startWithVideoMuted
         }));
+
+        if (startWithVideoMuted) {
+            Alert.alert(
+                'Video OFF',
+                '\nConversation will start without video from now on.\n\nAudio can be toggled in the settings menu.',
+                [
+                    { text: 'Ok' },
+                ],
+                { cancelable: false });
+        }
+        else {
+            Alert.alert(
+                'Video ON',
+                '\nConversation will start with video from now on.\n\nAudio can be toggled in the settings menu.',
+                [
+                    { text: 'Ok' },
+                ],
+                { cancelable: false });
+
+        }
     }
 
     /**

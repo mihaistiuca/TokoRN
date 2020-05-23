@@ -35,7 +35,7 @@ class TokoHome extends Component{
         const onAppNavigateSettled
             = () => this._mounted && this.setState({ joining: false });
 
-        this.props.dispatch(appNavigate(predefinedRoom))
+        this.props.dispatch(appNavigate(predefinedRoom, true))
             .then(onAppNavigateSettled, onAppNavigateSettled);
     }
 
@@ -49,7 +49,7 @@ class TokoHome extends Component{
     render() {
         return (
             <ScrollView style={{paddingHorizontal: 16}}>
-                <Text style={ styles.introText }>
+                <Text style={ [ styles.introText, { fontSize: 16 } ] }>
                     Join one of these public rooms.
                 </Text>
                 <View style={{height: 30}}></View>

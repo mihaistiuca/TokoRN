@@ -206,7 +206,7 @@
         "popupError": "Selaimesi estää tämä sivuston ponnahdusikkunat. Salli ponnahdusikkunat selaimen suojausasetuksista ja yritä uudelleen.",
         "popupErrorTitle": "Ponnahdusikkuna estetty",
         "recording": "Nauhoitetaan",
-        "recordingDisabledForGuestTooltip": "Vieraat eivät voi nauhoittaa.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Nauhoitus ei ole käytössä.",
         "rejoinNow": "Liity nyt uudelleen",
         "remoteControlAllowedMessage": "{{user}} hyväksyi etäkäyttöpyyntösi!",

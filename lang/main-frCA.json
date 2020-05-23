@@ -212,7 +212,7 @@
         "popupError": "Votre navigateur bloque les fenêtres surgissantes provenant de ce site. Veuillez activer les fenêtres surgissantes dans les paramètres de sécurité de votre navigateur et réessayer.",
         "popupErrorTitle": "Fenêtre surgissante bloquée",
         "recording": "Enregistrement",
-        "recordingDisabledForGuestTooltip": "Les invités ne peuvent pas démarrer l'enregistrement.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Démarrage de l'enregistrement désactivé.",
         "rejoinNow": "Rejoindre maintenant",
         "remoteControlAllowedMessage": "{{user}} a accepté votre demande de contrôle à distance!",

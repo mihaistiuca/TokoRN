@@ -227,7 +227,7 @@
         "popupError": "Таны хөтөч энэ сайтаас попап цонхуудыг блоклож байна. Хөтчөө аюулгүй байдлын тохиргоон дээр гарч ирэх цонхыг идэвхжүүлээд дахин оролдоно уу.",
         "popupErrorTitle": "Попап хаалттай байна",
         "recording": "Бичлэг хийх",
-        "recordingDisabledForGuestTooltip": "Зочид бичлэг хийж болохгүй.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Бичлэг хийх хаалттай.",
         "rejoinNow": "Одоо дахин нэгдэх",
         "remoteControlAllowedMessage": "{{user}} алсын удирдлагын хүсэлтийг хүлээн авлаа!",

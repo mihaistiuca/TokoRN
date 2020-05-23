@@ -228,7 +228,7 @@
         "popupError": "Votre navigateur bloque les fenêtres pop-up. Veuillez autoriser les fenêtres pop-up dans les paramètres de votre navigateur.",
         "popupErrorTitle": "Pop-up bloquée",
         "recording": "Enregistrement",
-        "recordingDisabledForGuestTooltip": "Les invités ne peuvent enregistrer.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "L'enregistrement est désactivé.",
         "rejoinNow": "Rejoindre maintenant",
         "remoteControlAllowedMessage": "{{user}} a accepté votre demande de prise en main à distance !",

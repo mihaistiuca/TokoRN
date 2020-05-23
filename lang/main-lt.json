@@ -227,7 +227,7 @@
         "popupError": "Jūsų naršyklė blokuoja išsišokančius langus šioje svetainėje. Prašome išjungti šią funkciją per savo svetainės nustatymus ir bandyti iš naujo.",
         "popupErrorTitle": "Išsišokantis langas užblokuotas",
         "recording": "Įrašoma",
-        "recordingDisabledForGuestTooltip": "Svečiai negali pradėti įrašinėti.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Įrašinėjimas išjungtas.",
         "rejoinNow": "Persijungti dabar",
         "remoteControlAllowedMessage": "{{user}} priėmė jūsų prašymą nuotoliniam valdymui!",

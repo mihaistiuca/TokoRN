@@ -216,7 +216,7 @@
         "popupError": "Браузърът Ви блокира изскачащите прозорци от този уеб сайт. Моля, разрешете изскачащите прозорци от настройките за сигурност на браузъра си и след това опитайте отново.",
         "popupErrorTitle": "Блокиран изскачащ прозорец",
         "recording": "Запис",
-        "recordingDisabledForGuestTooltip": "Гостите не могат да стартират запис.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Стартирането на запис е спряно.",
         "rejoinNow": "Повторно присъединяване сега",
         "remoteControlAllowedMessage": "{{user}} прие заявката Ви за отдалечено управление!",

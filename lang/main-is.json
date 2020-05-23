@@ -227,7 +227,7 @@
         "popupError": "Vafrinn þinn er að loka á sprettglugga frá þessu vefsvæði. Virkjaðu sprettglugga í öryggisstillingum vafrans þíns og prófaðu svo aftur.",
         "popupErrorTitle": "Lokað á sprettglugga",
         "recording": "Upptaka",
-        "recordingDisabledForGuestTooltip": "Gestir geta ekki hafið upptökur.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Að hefja upptöku er óvirkt.",
         "rejoinNow": "Taka þátt aftur",
         "remoteControlAllowedMessage": "{{user}} samþykkti beiðni þína um fjarstýringu!",

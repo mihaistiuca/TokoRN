@@ -226,7 +226,7 @@
         "popupError": "Ваш браузер блокирует всплывающие окна этого сайта. Пожалуйста, разрешите всплывающие окна в настройках безопасности браузера и попробуйте снова.",
         "popupErrorTitle": "Заблокировано всплывающее окно",
         "recording": "Запись",
-        "recordingDisabledForGuestTooltip": "Гости не могут записывать",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Невозможно начать запись",
         "rejoinNow": "Подключиться снова",
         "remoteControlAllowedMessage": "{{user}} принял ваш запрос на удаленное управление!",

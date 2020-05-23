@@ -78,7 +78,8 @@ class RoomLockPrompt extends Component<Props> {
 
         return (
             <InputDialog
-                contentKey = 'dialog.passwordLabel'
+                // contentKey = 'dialog.passwordLabel'
+                contentKey = 'dialog.recordingDisabledForGuestTooltip'
                 onCancel = { this._onCancel }
                 onSubmit = { this._onSubmit }
                 textInputProps = { textInputProps }

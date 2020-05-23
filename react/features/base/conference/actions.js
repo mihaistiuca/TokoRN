@@ -728,6 +728,7 @@ export function setPreferredReceiverVideoQuality(
  * }}
  */
 export function setRoom(room: ?string) {
+    // alert(room);
     return {
         type: SET_ROOM,
         room

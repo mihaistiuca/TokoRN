@@ -133,7 +133,18 @@ class OverflowMenu extends PureComponent<Props, State> {
                 <TileViewButton { ...buttonProps } />
                 {/* <LiveStreamButton { ...buttonProps } /> */}
                 <ToggleCameraButton { ...buttonProps } />
+
+                {
+                    this.props._localRoomName != 'TokoOpenDiscussion' &&
+                    this.props._localRoomName != 'TokoVirtualPub' &&
+                    this.props._localRoomName != 'TokoBusiness' &&
+                    this.props._localRoomName != 'TokoCookingIdeas' &&
+                    <RoomLockButton { ...buttonProps } />
+                }
+
+                {/* this is actually Report masked  */}
                 <RecordButton { ...buttonProps } />
+
                 {/* <MoreOptionsButton { ...moreOptionsButtonProps } /> */}
                 {/* <Collapsible collapsed = { !showMore }> */}
                 {/* <Collapsible collapsed = { false }>
@@ -241,10 +252,12 @@ class OverflowMenu extends PureComponent<Props, State> {
  * @returns {Props}
  */
 function _mapStateToProps(state) {
+    // alert(state['features/base/conference'].room)
     return {
         _bottomSheetStyles: ColorSchemeRegistry.get(state, 'BottomSheet'),
         _isOpen: isDialogOpen(state, OverflowMenu_),
-        _recordingEnabled: Platform.OS !== 'ios' || getFeatureFlag(state, IOS_RECORDING_ENABLED)
+        _recordingEnabled: Platform.OS !== 'ios' || getFeatureFlag(state, IOS_RECORDING_ENABLED),
+        _localRoomName: state['features/base/conference'].room
     };
 }
 

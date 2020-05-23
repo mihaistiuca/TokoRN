@@ -7,7 +7,8 @@ import {
     TouchableHighlight,
     TouchableOpacity,
     View,Image,
-    AsyncStorage
+    AsyncStorage,
+    TouchableWithoutFeedback
 } from 'react-native';
 
 import { getName } from '../../app';
@@ -214,6 +215,10 @@ class WelcomePage extends AbstractWelcomePage {
         this.props.dispatch(setSideBarVisible(true));
     }
 
+    _onHideKeyboard() {
+        Keyboard.dismiss();
+    }
+
     /**
      * Renders the hint box if necessary.
      *
@@ -228,7 +233,8 @@ class WelcomePage extends AbstractWelcomePage {
                 <Animated.View style = { this._getHintBoxStyle() }>
                     <View style = { styles.hintTextContainer } >
                         <Text style = { styles.hintText }>
-                            { t('welcomepage.roomnameHint') }
+                            {/* { t('welcomepage.roomnameHint') } */}
+                            { "Enter the name of the room you want to create or join. After entering the room, you will be able to invite friends and family in." }
                         </Text>
                     </View>
                     <View style = { styles.hintButtonContainer } >
@@ -277,7 +283,8 @@ class WelcomePage extends AbstractWelcomePage {
                     { t('welcomepage.accessibilityLabel.join') }
                 onPress = { this._onJoin }
                 style = { styles.button }
-                underlayColor = { ColorPalette.white }>
+                // underlayColor = { ColorPalette.white }>
+                >
                 { children }
             </TouchableHighlight>
         );
@@ -304,14 +311,14 @@ class WelcomePage extends AbstractWelcomePage {
 
 <TermsDialog isVisible={this.state.showAcceptTermsPopup} pressAcceptTerms={() => { this.pressAcceptTerms(); }}></TermsDialog>
             
-                <View style = { _headerStyles.page }>
+                <TouchableOpacity activeOpacity={1} style = { _headerStyles.page } onPress = { this._onHideKeyboard } >
                     <Header style = { styles.header }>
                         <TouchableOpacity onPress = { this._onShowSideBar } >
                             <Icon
                                 src = { IconMenu }
                                 style = { _headerStyles.headerButtonIcon } />
                         </TouchableOpacity>
-                        {/* <VideoSwitch /> */}
+                        <VideoSwitch />
                     </Header>
                     <TokoLogo/>
 
@@ -320,15 +327,20 @@ class WelcomePage extends AbstractWelcomePage {
                         <SafeAreaView style = { styles.roomContainer } >
                    
                         <View style={{height: 10}}></View>
+                        <Text style={ [ styles.introText, { fontSize: 16 } ] }>
+                            Create private room
+                        </Text>
+
+                        <View style={{height: 10}}></View>
                         <View style = { styles.joinControls } >
 
                         
                             {/* <Text style = { styles.enterRoomText }>
                                 { this.state.currentPage }
                             </Text> */}
-                            <Text style = { styles.enterRoomText }>
+                            {/* <Text style = { styles.enterRoomText }>
                                 { t('welcomepage.roomname') }
-                            </Text>
+                            </Text> */}
                             <TextInput
                                 accessibilityLabel = { t(roomnameAccLabel) }
                                 autoCapitalize = 'none'
@@ -339,7 +351,8 @@ class WelcomePage extends AbstractWelcomePage {
                                 onChangeText = { this._onRoomChange }
                                 onFocus = { this._onFieldFocus }
                                 onSubmitEditing = { this._onJoin }
-                                placeholder = { this.state.roomPlaceholder }
+                                // placeholder = { this.state.roomPlaceholder }
+                                placeholder = { 'Enter room name here' }
                                 placeholderTextColor = { PLACEHOLDER_TEXT_COLOR }
                                 returnKeyType = { 'go' }
                                 style = { styles.textInput }
@@ -355,7 +368,7 @@ class WelcomePage extends AbstractWelcomePage {
                     
                     <View style={{height: 10}}></View>
                     <WelcomePageLists onChangePage={(pageIndex) => this.onChangePageHandler(pageIndex)} disabled = { this.state._fieldFocused } />
-                </View>
+                </TouchableOpacity>
                 <WelcomePageSideBar />
                 { this._renderWelcomePageModals() }
             </LocalVideoTrackUnderlay>

@@ -227,7 +227,7 @@
         "popupError": "El vostre navegador bloca les finestres emergents d'aquest lloc. Habiliteu les finestres emergents a la configuració de seguretat del navegador i torneu-ho a intentar.",
         "popupErrorTitle": "Finestres emergents blocades",
         "recording": "Enregistrament",
-        "recordingDisabledForGuestTooltip": "Els convidats no poden iniciar enregistraments.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "No es pot enregistrar.",
         "rejoinNow": "Torna a entrar ara",
         "remoteControlAllowedMessage": "{{user}} ha acceptat la petició de control remot!",

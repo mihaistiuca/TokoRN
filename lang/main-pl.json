@@ -217,7 +217,7 @@
         "popupError": "Twoja przeglądarka blokuje wyskakujące okienka pochodzące z tej witryny. Włącz wyświetlanie wyskakujących okienek w ustawieniach bezpieczeństwa Twojej przeglądarki i spróbuj ponownie.",
         "popupErrorTitle": "Wyskakujące okienko zostało zablokowane",
         "recording": "Nagrywanie",
-        "recordingDisabledForGuestTooltip": "Goście nie mogą rozpocząć nagrywania.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Rozpoczęcie nagrywania wyłączone.",
         "rejoinNow": "Połącz ponownie teraz",
         "remoteControlAllowedMessage": "{{user}} zaakceptował Twoją prośbę o kontrolę zdalną!",

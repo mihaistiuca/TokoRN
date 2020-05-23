@@ -42,8 +42,8 @@ declare var interfaceConfig: Object;
  * scheme, or a mere room name.
  * @returns {Function}
  */
-export function appNavigate(uri: ?string) {
-    // alert(url);
+export function appNavigate(uri: ?string, isPublicRoom) {
+    // alert(isPublicRoom);
     if (uri && uri.includes('tokochat.com')) {
         let lastSlashIndex = uri.lastIndexOf('/');
         uri = uri.substring(lastSlashIndex + 1);

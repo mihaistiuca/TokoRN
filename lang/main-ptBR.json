@@ -217,7 +217,7 @@
         "popupError": "Seu navegador está bloqueando janelas popup deste site. Habilite os popups nas configurações de segurança no seu navegador e tente novamente.",
         "popupErrorTitle": "Popup bloqueado",
         "recording": "Gravando",
-        "recordingDisabledForGuestTooltip": "Visitantes não podem iniciar gravações.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Iniciar gravação desativada.",
         "rejoinNow": "Reconectar agora",
         "remoteControlAllowedMessage": "{{user}} aceitou sua requisição de controle remoto!",

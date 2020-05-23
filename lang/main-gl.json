@@ -217,7 +217,7 @@
         "popupError": "O navegador está bloqueando as xanelas emerxentes deste sitio. Active as xanelas emerxentes na configuración de seguranza do seu navegador e ténteo de novo outra vez.",
         "popupErrorTitle": "Xanela emerxentes bloqueada",
         "recording": "Gravando",
-        "recordingDisabledForGuestTooltip": "Os convidados non poden facer gravacións.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "O arrinque de gravación está desactivado.",
         "rejoinNow": "Volverse unir agora",
         "remoteControlAllowedMessage": "{{user}} aceptou a súa solicitude de control remoto!",

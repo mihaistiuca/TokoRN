@@ -206,7 +206,7 @@
         "popupError": "Trình duyệt của bạn đã chặn cửa sổ pop-up từ website hiện hành. Làm ơn cho phép pop-up trong cài đặt của trình duyệt và thử lại",
         "popupErrorTitle": "Cửa sổ Pop-Up bị chặn",
         "recording": "Đang ghi âm",
-        "recordingDisabledForGuestTooltip": "Khách không thể khởi tạo ghi hình.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Khởi động ghi âm đã bị tắt.",
         "rejoinNow": "Tham gia lại luôn",
         "remoteControlAllowedMessage": "{{user}} đã chấp nhận yêu cầu điều khiển từ xa của bạn!",

@@ -162,11 +162,11 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                             onValueChange = { this._onStartAudioMutedChange }
                             value = { startWithAudioMuted } />
                     </FormRow>
-                    <FormRow label = 'settingsView.startWithVideoMuted'>
+                    {/* <FormRow label = 'settingsView.startWithVideoMuted'>
                         <Switch
                             onValueChange = { this._onStartVideoMutedChange }
                             value = { startWithVideoMuted } />
-                    </FormRow>
+                    </FormRow> */}
                 </ScrollView>
             </JitsiModal>
         );

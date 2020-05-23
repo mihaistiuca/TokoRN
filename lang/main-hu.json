@@ -217,7 +217,7 @@
         "popupError": "A böngésző blokkolja a felugró ablakokat ezen az oldalon. Engedélyezze a böngésző biztonsági beállításaiban a felugró ablakokat és próbálja újra.",
         "popupErrorTitle": "Felugró ablak blokkolva",
         "recording": "Felvétel",
-        "recordingDisabledForGuestTooltip": "Vendég nem indíthat felvételt.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Felvétel rögzítése letiltva.",
         "rejoinNow": "Újracsatlakozás azonnal",
         "remoteControlAllowedMessage": "{{user}} elfogadta az Ön távoli vezérlési kérését!",

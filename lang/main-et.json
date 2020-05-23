@@ -227,7 +227,7 @@
         "popupError": "Modaalaknad on veebilehitsejas keelatud. Palun luba modaalakende kasutamine veebilehitseja turvalisuse seadistuses ning proovi uuesti.",
         "popupErrorTitle": "Modaalaknad on keelatud",
         "recording": "Salvetamine",
-        "recordingDisabledForGuestTooltip": "Külalised ei saa kõne salvestada.",
+        "recordingDisabledForGuestTooltip": "Please enter a password for this room. Be aware that people will not be able to access the room, unless they know the password.",
         "recordingDisabledTooltip": "Kõne salvestamine on keelatud.",
         "rejoinNow": "Ühine uuesti",
         "remoteControlAllowedMessage": "{{user}} andis kaugjuhtimiseks loa!",
