@@ -77,7 +77,7 @@ class WelcomePageLists extends Component<Props> {
             {
                 component: RecentList,
                 icon: IconLock,
-                title: "Private"
+                title: "Private rooms"
                 // title: t('welcomepage.recentList')
             },
             
@@ -97,7 +97,7 @@ class WelcomePageLists extends Component<Props> {
             {
                 component: TokoHome,
                 icon: IconAddContact,
-                title: "Just Talk" // TODO localization
+                title: "Meet people" // TODO localization
             }
         )
 
@@ -143,7 +143,8 @@ function _mapStateToProps(state: Object) {
     if (typeof defaultPage === 'undefined') {
         const recentList = state['features/recent-list'];
 
-        defaultPage = recentList && recentList.length ? 0 : 1;
+        // defaultPage = recentList && recentList.length ? 0 : 1;
+        defaultPage = 0;
     }
 
     return {

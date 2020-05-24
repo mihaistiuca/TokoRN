@@ -31,7 +31,7 @@ const DEFAULT_STATE = {
     serverURL: undefined,
     startAudioOnly: false,
     startWithAudioMuted: false,
-    startWithVideoMuted: false,
+    startWithVideoMuted: true,
     userSelectedAudioOutputDeviceId: undefined,
     userSelectedCameraDeviceId: undefined,
     userSelectedMicDeviceId: undefined,
